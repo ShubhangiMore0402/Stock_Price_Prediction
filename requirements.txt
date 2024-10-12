@@ -9,3 +9,4 @@ tensorflow>=2.13.0,<2.14
 keras>=2.13.1,<2.14
 xgboost>=1.7.0,<1.8
 statsmodels>=0.14.0,<0.15
+yfinance
