@@ -1,0 +1,214 @@
+# This file created by conda-build 24.7.1
+# ------------------------------------------------
+
+package:
+  name: libmambapy
+  version: 1.5.9
+source:
+  sha256: 59d7dd68a8e4cf70448b54f9f2ec9a9de8b1d46c8cc4d80790b0ed4a7b5e5169
+  url: https://github.com/mamba-org/mamba/archive/refs/tags/2024.08.31.tar.gz
+build:
+  ignore_run_exports:
+    - spdlog
+  number: 0
+  run_exports:
+    - libmambapy >=1.5.9,<1.6.0a0
+  string: py312h1ed1908_0
+requirements:
+  build:
+    - bzip2 1.0.8 hfdf4475_7
+    - c-ares 1.33.1 h44e7173_0
+    - ca-certificates 2024.8.30 h8857fd0_0
+    - cctools_osx-64 986 h0282933_3
+    - cctools_osx-arm64 986 h5660759_3
+    - clang 17.0.6 default_he371ed4_6
+    - clang-17 17.0.6 default_hb173f14_6
+    - clang_impl_osx-arm64 17.0.6 h840ab8d_19
+    - clang_osx-arm64 17.0.6 h40be2b1_19
+    - clangxx 17.0.6 default_he371ed4_6
+    - clangxx_impl_osx-arm64 17.0.6 ha3b5c75_19
+    - clangxx_osx-arm64 17.0.6 h40be2b1_19
+    - cmake 3.30.3 h7243fc2_0
+    - compiler-rt 17.0.6 ha38d28d_1
+    - compiler-rt_osx-64 17.0.6 ha38d28d_1
+    - cross-python_osx-arm64 3.12 42_cpython
+    - crossenv 1.4.0 pyhd8ed1ab_0
+    - gettext 0.22.5 hdfe23c8_3
+    - gettext-tools 0.22.5 hdfe23c8_3
+    - icu 75.1 h120a0e1_0
+    - krb5 1.21.3 h37d8d59_0
+    - ld64_osx-64 711 hf158dd0_3
+    - ld64_osx-arm64 711 haa85353_3
+    - libasprintf 0.22.5 hdfe23c8_3
+    - libasprintf-devel 0.22.5 hdfe23c8_3
+    - libclang-cpp17 17.0.6 default_hb173f14_6
+    - libcurl 8.9.1 hfcf2730_0
+    - libcxx 18.1.8 hd876a4e_6
+    - libcxx-devel 18.1.8 h7c275be_6
+    - libedit 3.1.20191231 h0678c8f_2
+    - libev 4.33 h10d778d_2
+    - libexpat 2.6.2 h73e2aa4_0
+    - libffi 3.4.2 h0d85af4_5
+    - libgettextpo 0.22.5 hdfe23c8_3
+    - libgettextpo-devel 0.22.5 hdfe23c8_3
+    - libiconv 1.17 hd75f5a5_2
+    - libintl 0.22.5 hdfe23c8_3
+    - libintl-devel 0.22.5 hdfe23c8_3
+    - libllvm17 17.0.6 hbedff68_1
+    - libnghttp2 1.58.0 h64cf6d3_1
+    - libsqlite 3.46.0 h1b8f9f3_0
+    - libssh2 1.11.0 hd019ec5_0
+    - libuv 1.48.0 h67532ce_0
+    - libxml2 2.12.7 heaf3512_4
+    - libzlib 1.3.1 h87427d6_1
+    - llvm-tools 17.0.6 hbedff68_1
+    - lz4-c 1.9.4 hf0c8a7f_0
+    - macosx_deployment_target_osx-arm64 11.0 h6553868_1
+    - ncurses 6.5 hf036a51_1
+    - ninja 1.12.1 h3c5361c_0
+    - openssl 3.3.1 hd23fc13_3
+    - popt 1.16 h7b079dc_2002
+    - pybind11 2.13.5 py312hc5c4d5f_0
+    - pybind11-abi 4 hd8ed1ab_3
+    - pybind11-global 2.13.5 py312hc5c4d5f_0
+    - python 3.12.5 h37a9e06_0_cpython
+    - python_abi 3.12 5_cp312
+    - readline 8.2 h9e318b2_1
+    - rhash 1.4.4 h0dc2134_0
+    - rsync 3.3.0 h5aaac6a_0
+    - sed 4.7 h3efe00b_1000
+    - sigtool 0.1.3 h88f4db0_0
+    - tapi 1100.0.11 h9ce4665_0
+    - tk 8.6.13 h1abcd95_1
+    - tzdata 2024a h8827d51_1
+    - xxhash 0.8.2 h4140336_0
+    - xz 5.2.6 h775f41a_0
+    - zstd 1.5.6 h915ae27_0
+  host:
+    - bzip2 1.0.8 h99b78c6_7
+    - ca-certificates 2024.8.30 hf0a4a13_0
+    - cpp-expected 1.1.0 hffc8910_0
+    - fmt 10.2.1 h2ffa867_0
+    - libcxx 18.1.8 h3ed4263_6
+    - libexpat 2.6.2 hebf3989_0
+    - libffi 3.4.2 h3422bc3_5
+    - libmamba 1.5.9 hbfbf5c4_0
+    - libsqlite 3.46.0 hfb93653_0
+    - libzlib 1.3.1 hfb2fe0b_1
+    - ncurses 6.5 h7bae524_1
+    - nlohmann_json 3.11.3 h00cdb27_1
+    - openssl 3.3.1 h8359307_3
+    - pip 24.2 pyh8b19718_1
+    - pybind11 2.13.5 py312h6142ec9_0
+    - pybind11-abi 4 hd8ed1ab_3
+    - pybind11-global 2.13.5 py312h6142ec9_0
+    - python 3.12.5 h30c5eda_0_cpython
+    - python_abi 3.12 5_cp312
+    - readline 8.2 h92ec313_1
+    - setuptools 72.2.0 pyhd8ed1ab_0
+    - spdlog 1.12.0 he64bfa9_2
+    - termcolor-cpp 2.0.0 hc021e02_0
+    - tk 8.6.13 h5083fa2_1
+    - tzdata 2024a h8827d51_1
+    - wheel 0.44.0 pyhd8ed1ab_0
+    - xz 5.2.6 h57fd34a_0
+    - yaml-cpp 0.8.0 h13dd4ca_0
+  run:
+    - __osx >=11.0
+    - fmt >=10.2.1,<11.0a0
+    - libcxx >=17
+    - libmamba 1.5.9 hbfbf5c4_0
+    - openssl >=3.3.1,<4.0a0
+    - pybind11-abi ==4
+    - python >=3.12,<3.13.0a0
+    - python >=3.12,<3.13.0a0 *_cpython
+    - python_abi 3.12.* *_cp312
+    - yaml-cpp >=0.8.0,<0.9.0a0
+test:
+  commands:
+    - python -c "import libmambapy._version; assert libmambapy._version.__version__
+      == '1.5.9'"
+  imports:
+    - libmambapy
+    - libmambapy.bindings
+about:
+  description: '
+
+
+    [![Build Status](https://github.com/mamba-org/mamba/workflows/CI/badge.svg)](https://github.com/mamba-org/mamba/actions)
+
+    [![Join the Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mamba-org/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+    [![docs](https://readthedocs.org/projects/mamba/badge/?version=latest&style=flat)](https://mamba.readthedocs.io/en/latest)
+
+
+    `mamba` is a reimplementation of the conda package manager in C++.
+
+
+    - parallel downloading of repository data and package files using multi-threading
+
+    - libsolv for much faster dependency solving, a state of the art library used
+    in the RPM package manager of Red Hat, Fedora and OpenSUSE
+
+    - core parts of `mamba` are implemented in C++ for maximum efficiency
+
+
+    At the same time, `mamba` utilizes the same command line parser, package installation
+    and deinstallation code and transaction verification routines as `conda` to stay
+    as compatible as possible.
+
+
+    Mamba is part of a bigger ecosystem to make scientific packaging more sustainable.
+    You can read our [announcement blog post](https://medium.com/@QuantStack/open-software-packaging-for-science-61cecee7fc23).
+
+    The ecosystem also consists of `quetz`, an open source `conda` package server
+    and `boa`, a fast `conda` package builder.
+
+
+
+
+    Please refer to the [`mamba` and `micromamba` installation guide](https://mamba.readthedocs.io/en/latest/installation.html)
+    in the documentation.
+
+
+
+
+    `mamba` and `micromamba` come with features on top of stock `conda`.
+
+
+
+
+    To efficiently query repositories and query package dependencies you can use `mamba
+    repoquery` or `micromamba repoquery`.
+
+    See the [repoquery documentation](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html#repoquery)
+    for details.
+
+
+
+
+    `micromamba` can be used to install lock files generated by [conda-lock](https://conda-incubator.github.io/conda-lock/)
+    without having to install `conda-lock`. Simply invoke e.g. `micromamba create
+    -n my-env -f conda-lock.yml` with an environment lockfile named `*-lock.yml` or
+    `*-lock.yaml`.
+
+    '
+  dev_url: https://github.com/mamba-org/mamba
+  home: https://github.com/mamba-org/mamba
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: A fast drop-in alternative to conda, using libsolv for dependency resolution
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20240830.4.1
+  recipe-maintainers:
+    - AntoinePrv
+    - JohanMabille
+    - SylvainCorlay
+    - adriendelsalle
+    - ericmjl
+    - wolfv
+  remote_url: https://github.com/conda-forge/mamba-feedstock
+  sha: 007d0b11444c409601b83577afb70f96a94731d5

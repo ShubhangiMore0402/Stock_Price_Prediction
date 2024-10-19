@@ -1,0 +1,24 @@
+{
+    "arch": null,
+    "build": "pyh8b19718_1",
+    "build_number": 1,
+    "channel": "conda-forge",
+    "depends": [
+        "python >=3.8,<3.13.0a0",
+        "setuptools",
+        "wheel"
+    ],
+    "fn": "pip-24.2-pyh8b19718_1.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "6c78fbb8ddfd64bcb55b5cbafd2d2c43",
+    "name": "pip",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "d820e5358bcb117fa6286e55d4550c60b0332443df62121df839eab2d11c890b",
+    "size": 1237976,
+    "subdir": "noarch",
+    "timestamp": 1724954490262,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/pip-24.2-pyh8b19718_1.conda",
+    "version": "24.2"
+}

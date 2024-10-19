@@ -1,0 +1,23 @@
+{
+    "arch": "arm64",
+    "build": "py312he37b823_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "python >=3.12,<3.13.0a0",
+        "python >=3.12,<3.13.0a0 *_cpython",
+        "python_abi 3.12.* *_cp312"
+    ],
+    "fn": "ruamel.yaml.clib-0.2.8-py312he37b823_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "2fa02324046cfcb7a67fae30fd06a945",
+    "name": "ruamel.yaml.clib",
+    "platform": "osx",
+    "sha256": "c3138824f484cca2804d22758c75965b578cd35b35243ff02e64da06bda03477",
+    "size": 111221,
+    "subdir": "osx-arm64",
+    "timestamp": 1707315016121,
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/ruamel.yaml.clib-0.2.8-py312he37b823_0.conda",
+    "version": "0.2.8"
+}

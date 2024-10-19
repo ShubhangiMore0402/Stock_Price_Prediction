@@ -1,0 +1,24 @@
+{
+    "arch": null,
+    "build": "pyh7900ff3_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "conda-package-streaming >=0.9.0",
+        "python >=3.8",
+        "zstandard >=0.15"
+    ],
+    "fn": "conda-package-handling-2.3.0-pyh7900ff3_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "0a7dce281ae2be81acab0aa963e6bb99",
+    "name": "conda-package-handling",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "c85a76ffd08608c3c61d1ca6c82be9f45ab31a5e108a1aec0872d84b3546e4f1",
+    "size": 256238,
+    "subdir": "noarch",
+    "timestamp": 1717678729709,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/conda-package-handling-2.3.0-pyh7900ff3_0.conda",
+    "version": "2.3.0"
+}

@@ -1,0 +1,21 @@
+{
+    "arch": null,
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "python >=3.7"
+    ],
+    "fn": "certifi-2024.8.30-pyhd8ed1ab_0.conda",
+    "license": "ISC",
+    "md5": "12f7d00853807b0531775e9be891cb11",
+    "name": "certifi",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "7020770df338c45ac6b560185956c32f0a5abf4b76179c037f115fc7d687819f",
+    "size": 163752,
+    "subdir": "noarch",
+    "timestamp": 1725278204397,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/certifi-2024.8.30-pyhd8ed1ab_0.conda",
+    "version": "2024.8.30"
+}

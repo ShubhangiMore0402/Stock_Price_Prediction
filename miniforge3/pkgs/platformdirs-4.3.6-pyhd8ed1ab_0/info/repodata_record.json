@@ -1,0 +1,22 @@
+{
+    "arch": null,
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "python >=3.8"
+    ],
+    "fn": "platformdirs-4.3.6-pyhd8ed1ab_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "fd8f2b18b65bbf62e8f653100690c8d2",
+    "name": "platformdirs",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "c81bdeadc4adcda216b2c7b373f0335f5c78cc480d1d55d10f21823590d7e46f",
+    "size": 20625,
+    "subdir": "noarch",
+    "timestamp": 1726613611845,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/platformdirs-4.3.6-pyhd8ed1ab_0.conda",
+    "version": "4.3.6"
+}
