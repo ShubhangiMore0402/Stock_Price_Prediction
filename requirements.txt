@@ -5,9 +5,6 @@ matplotlib>=3.8.0,<3.9
 seaborn>=0.12.2,<0.13
 yfinance>=0.2.26
 requests>=2.31.0
-tensorflow>=2.13.0,<2.14
-keras>=2.13.1,<2.14
 xgboost>=1.7.0,<1.8
 statsmodels>=0.14.0,<0.15
-yfinance
 pylace
