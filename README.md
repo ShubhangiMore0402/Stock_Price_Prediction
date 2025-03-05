@@ -54,5 +54,5 @@ This will start a local server where you can enter a stock symbol and get predic
 ---
 
 ## 🏆 **License**
-This project is open-source and available under the **MIT License**[License].
+This project is open-source and available under the [LICENSE](License)
 
